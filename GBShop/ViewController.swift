@@ -11,9 +11,25 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.logout()
+        self.signUp()
+        self.updateUserData()
     }
-
+    
+    func logout() {
+        let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
+        appDelegate?.logoutResult()
+    }
+    
+    func signUp() {
+        let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
+        appDelegate?.signUpResult()
+    }
+    
+    func updateUserData() {
+        let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
+        appDelegate?.updateUserDataRequestResult()
+    }
 
 }
 
