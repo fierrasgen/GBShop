@@ -30,6 +30,16 @@ class ViewController: UIViewController {
         let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
         appDelegate?.updateUserDataRequestResult()
     }
+    
+    func catalogData() {
+        let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
+        appDelegate?.catalogDataRequestFactory()
+    }
+    
+    func goodByID() {
+        let appDelegate: AppDelegate? = UIApplication.shared.delegate as? AppDelegate
+        appDelegate?.goodByIDRequestFactory()
+    }
 
 }
 
