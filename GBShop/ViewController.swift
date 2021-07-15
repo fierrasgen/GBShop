@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let requestFactory = RequestFactory()
+    var commentID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,9 @@ class ViewController: UIViewController {
         self.updateUserData()
         self.catalogData()
         self.goodByID()
+        self.addReview()
+        self.getReview()
+        self.removeReview()
     }
     
     
@@ -108,6 +112,46 @@ class ViewController: UIViewController {
             switch response.result {
             case .success(let good):
                 print(good)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func addReview() {
+        let review = requestFactory.makeReviewRequestFatory()
+        review.add(userID: 123, productID: 456, text: "Review"){ response in
+            switch response.result {
+            case .success(let add):
+                print(add)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func getReview() {
+        let review = requestFactory.makeReviewRequestFatory()
+        review.get(productID: 456) { response in
+            switch response.result {
+            case .success(let reviews):
+                print(reviews)
+                self.commentID = reviews.first?.commentID
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func removeReview() {
+        guard let commentID = self.commentID else { return }
+        
+        let review = requestFactory.makeReviewRequestFatory()
+        
+        review.remove(commentID: commentID) { response in
+            switch response.result {
+            case .success(let remove):
+                print(remove)
             case .failure(let error):
                 print(error.localizedDescription)
             }
