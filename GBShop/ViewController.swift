@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         self.addReview()
         self.getReview()
         self.removeReview()
+        
+        self.addToCart()
+        self.getCard()
+        self.removeFromCart()
+        self.payCart()
     }
     
     
@@ -157,6 +162,66 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    func addToCart() {
+        let cart = requestFactory.makeCartRequestFactory()
+        
+        cart.add(userID: 123, productID: 123, quantity: 1) { response in
+            switch response.result {
+            case .success(let add):
+                print(add)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
+        cart.add(userID: 123, productID: 456, quantity: 1) { response in
+            switch response.result {
+            case .success(let add):
+                print(add)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func getCard() {
+        let cart = requestFactory.makeCartRequestFactory()
+        
+        cart.get(userID: 123) { response in
+            switch response.result {
+            case .success(let get):
+                print(get)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func removeFromCart() {
+        let cart = requestFactory.makeCartRequestFactory()
+        
+        cart.remove(userID: 123, productID: 123) { response in
+            switch response.result {
+            case .success(let remove):
+                print(remove)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func payCart() {
+        let cart = requestFactory.makeCartRequestFactory()
+        
+        cart.pay(userID: 123, money: 1000) { response in
+            switch response.result {
+            case .success(let pay):
+                print(pay)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+
 }
-
-
