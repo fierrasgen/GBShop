@@ -40,6 +40,12 @@
 		7C96E6E226A06DE300B211AB /* GetReviewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E126A06DE300B211AB /* GetReviewResult.swift */; };
 		7C96E6E426A06FC400B211AB /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E326A06FC400B211AB /* Review.swift */; };
 		7C96E6E626A06FD700B211AB /* ReviewRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E526A06FD700B211AB /* ReviewRequestFactory.swift */; };
+		7C96E6E826A5D02500B211AB /* AddCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E726A5D02500B211AB /* AddCartResult.swift */; };
+		7C96E6EA26A5D0E200B211AB /* RemoveCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E926A5D0E200B211AB /* RemoveCartResult.swift */; };
+		7C96E6EC26A5D16A00B211AB /* GetCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6EB26A5D16A00B211AB /* GetCartResult.swift */; };
+		7C96E6EE26A5D17700B211AB /* PayCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6ED26A5D17700B211AB /* PayCartResult.swift */; };
+		7C96E6F026A5D5D100B211AB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6EF26A5D5D100B211AB /* Cart.swift */; };
+		7C96E6F226A5D5E600B211AB /* CartRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6F126A5D5E600B211AB /* CartRequestFactory.swift */; };
 		C7B3A5A6E2AF6988E4786140 /* Pods_GBShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0262E2464FA79741E9554B2B /* Pods_GBShopTests.framework */; };
 		D840F3A3017F67FB877C0A4D /* Pods_GBShop_GBShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26C8998B2E452E7DA6310C9 /* Pods_GBShop_GBShopUITests.framework */; };
 /* End PBXBuildFile section */
@@ -109,6 +115,12 @@
 		7C96E6E126A06DE300B211AB /* GetReviewResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReviewResult.swift; sourceTree = "<group>"; };
 		7C96E6E326A06FC400B211AB /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		7C96E6E526A06FD700B211AB /* ReviewRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRequestFactory.swift; sourceTree = "<group>"; };
+		7C96E6E726A5D02500B211AB /* AddCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartResult.swift; sourceTree = "<group>"; };
+		7C96E6E926A5D0E200B211AB /* RemoveCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveCartResult.swift; sourceTree = "<group>"; };
+		7C96E6EB26A5D16A00B211AB /* GetCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCartResult.swift; sourceTree = "<group>"; };
+		7C96E6ED26A5D17700B211AB /* PayCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCartResult.swift; sourceTree = "<group>"; };
+		7C96E6EF26A5D5D100B211AB /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		7C96E6F126A5D5E600B211AB /* CartRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRequestFactory.swift; sourceTree = "<group>"; };
 		82A5F6F4619A19CB15179D15 /* Pods_GBShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26C8998B2E452E7DA6310C9 /* Pods_GBShop_GBShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop_GBShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38474DE2F3D05D53D542B5F /* Pods-GBShop-GBShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-GBShopUITests.release.xcconfig"; path = "Target Support Files/Pods-GBShop-GBShopUITests/Pods-GBShop-GBShopUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -241,6 +253,10 @@
 				7C96E6DD26A06DC300B211AB /* AddReviewResult.swift */,
 				7C96E6DF26A06DD400B211AB /* RemoveReviewResult.swift */,
 				7C96E6E126A06DE300B211AB /* GetReviewResult.swift */,
+				7C96E6E726A5D02500B211AB /* AddCartResult.swift */,
+				7C96E6E926A5D0E200B211AB /* RemoveCartResult.swift */,
+				7C96E6EB26A5D16A00B211AB /* GetCartResult.swift */,
+				7C96E6ED26A5D17700B211AB /* PayCartResult.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -294,6 +310,8 @@
 				7C7B9EA12694739D007CE8BC /* Product.swift */,
 				7C96E6E326A06FC400B211AB /* Review.swift */,
 				7C96E6E526A06FD700B211AB /* ReviewRequestFactory.swift */,
+				7C96E6EF26A5D5D100B211AB /* Cart.swift */,
+				7C96E6F126A5D5E600B211AB /* CartRequestFactory.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -572,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C96E6EA26A5D0E200B211AB /* RemoveCartResult.swift in Sources */,
 				7C7B9EA22694739D007CE8BC /* Product.swift in Sources */,
 				7C7B9EA026947379007CE8BC /* ProductRequestFactory.swift in Sources */,
 				7C453565268DF411002275A4 /* AbstractErrorParser.swift in Sources */,
@@ -582,20 +601,25 @@
 				7C96E6E626A06FD700B211AB /* ReviewRequestFactory.swift in Sources */,
 				7C041AA32684D35F0020599C /* ViewController.swift in Sources */,
 				7C7B9EAC2694778A007CE8BC /* ProductResult.swift in Sources */,
+				7C96E6EE26A5D17700B211AB /* PayCartResult.swift in Sources */,
 				7C453573268DF949002275A4 /* LogoutResult.swift in Sources */,
+				7C96E6F226A5D5E600B211AB /* CartRequestFactory.swift in Sources */,
 				7C96E6E226A06DE300B211AB /* GetReviewResult.swift in Sources */,
 				7C45356B268DF462002275A4 /* AbstactRequestFactory.swift in Sources */,
+				7C96E6F026A5D5D100B211AB /* Cart.swift in Sources */,
 				7C7B9EAA26947756007CE8BC /* GoodResult.swift in Sources */,
 				7C453567268DF432002275A4 /* ErrorParser.swift in Sources */,
 				7C45356F268DF679002275A4 /* DataRequest.swift in Sources */,
 				7C453562268DF3DF002275A4 /* User.swift in Sources */,
 				7C041A9F2684D35F0020599C /* AppDelegate.swift in Sources */,
+				7C96E6EC26A5D16A00B211AB /* GetCartResult.swift in Sources */,
 				7C45355A268DF393002275A4 /* AuthRequestFactory.swift in Sources */,
 				7C041AA12684D35F0020599C /* SceneDelegate.swift in Sources */,
 				7C96E6E026A06DD400B211AB /* RemoveReviewResult.swift in Sources */,
 				7C453569268DF44C002275A4 /* ResponseCodable.swift in Sources */,
 				7C96E6E426A06FC400B211AB /* Review.swift in Sources */,
 				7C453575268DF956002275A4 /* SignUpResult.swift in Sources */,
+				7C96E6E826A5D02500B211AB /* AddCartResult.swift in Sources */,
 				7C7B9EA426947450007CE8BC /* StringResources.swift in Sources */,
 				7C96E6DE26A06DC300B211AB /* AddReviewResult.swift in Sources */,
 				7C45356D268DF481002275A4 /* RequestRouter.swift in Sources */,
