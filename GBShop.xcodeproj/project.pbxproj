@@ -16,6 +16,7 @@
 		7C041AAB2684D3630020599C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C041AA92684D3630020599C /* LaunchScreen.storyboard */; };
 		7C041AB62684D3630020599C /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C041AB52684D3630020599C /* GBShopTests.swift */; };
 		7C041AC12684D3630020599C /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C041AC02684D3630020599C /* GBShopUITests.swift */; };
+		7C2C113526AB01C7002EC80D /* UpdateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C113426AB01C7002EC80D /* UpdateUserViewController.swift */; };
 		7C45355A268DF393002275A4 /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C453559268DF393002275A4 /* AuthRequestFactory.swift */; };
 		7C45355C268DF3AE002275A4 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C45355B268DF3AE002275A4 /* Auth.swift */; };
 		7C45355E268DF3B9002275A4 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C45355D268DF3B9002275A4 /* RequestFactory.swift */; };
@@ -35,11 +36,23 @@
 		7C7B9EA426947450007CE8BC /* StringResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B9EA326947450007CE8BC /* StringResources.swift */; };
 		7C7B9EAA26947756007CE8BC /* GoodResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B9EA926947756007CE8BC /* GoodResult.swift */; };
 		7C7B9EAC2694778A007CE8BC /* ProductResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B9EAB2694778A007CE8BC /* ProductResult.swift */; };
+		7C921D0126A7171300EF8614 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C921D0026A7171300EF8614 /* AuthViewController.swift */; };
 		7C96E6DE26A06DC300B211AB /* AddReviewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6DD26A06DC300B211AB /* AddReviewResult.swift */; };
 		7C96E6E026A06DD400B211AB /* RemoveReviewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6DF26A06DD400B211AB /* RemoveReviewResult.swift */; };
 		7C96E6E226A06DE300B211AB /* GetReviewResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E126A06DE300B211AB /* GetReviewResult.swift */; };
 		7C96E6E426A06FC400B211AB /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E326A06FC400B211AB /* Review.swift */; };
 		7C96E6E626A06FD700B211AB /* ReviewRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E526A06FD700B211AB /* ReviewRequestFactory.swift */; };
+<<<<<<< Updated upstream
+=======
+		7C96E6E826A5D02500B211AB /* AddCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E726A5D02500B211AB /* AddCartResult.swift */; };
+		7C96E6EA26A5D0E200B211AB /* RemoveCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6E926A5D0E200B211AB /* RemoveCartResult.swift */; };
+		7C96E6EC26A5D16A00B211AB /* GetCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6EB26A5D16A00B211AB /* GetCartResult.swift */; };
+		7C96E6EE26A5D17700B211AB /* PayCartResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6ED26A5D17700B211AB /* PayCartResult.swift */; };
+		7C96E6F026A5D5D100B211AB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6EF26A5D5D100B211AB /* Cart.swift */; };
+		7C96E6F226A5D5E600B211AB /* CartRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E6F126A5D5E600B211AB /* CartRequestFactory.swift */; };
+		7C9EF44D26A8431200EAC21A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EF44C26A8431200EAC21A /* RegistrationViewController.swift */; };
+		7C9EF45026AAF9ED00EAC21A /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9EF44F26AAF9ED00EAC21A /* Logging.swift */; };
+>>>>>>> Stashed changes
 		C7B3A5A6E2AF6988E4786140 /* Pods_GBShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0262E2464FA79741E9554B2B /* Pods_GBShopTests.framework */; };
 		D840F3A3017F67FB877C0A4D /* Pods_GBShop_GBShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26C8998B2E452E7DA6310C9 /* Pods_GBShop_GBShopUITests.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +95,7 @@
 		7C041ABC2684D3630020599C /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C041AC02684D3630020599C /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		7C041AC22684D3630020599C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C2C113426AB01C7002EC80D /* UpdateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserViewController.swift; sourceTree = "<group>"; };
 		7C453559268DF393002275A4 /* AuthRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestFactory.swift; sourceTree = "<group>"; };
 		7C45355B268DF3AE002275A4 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		7C45355D268DF3B9002275A4 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
@@ -104,11 +118,23 @@
 		7C7B9EA326947450007CE8BC /* StringResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringResources.swift; sourceTree = "<group>"; };
 		7C7B9EA926947756007CE8BC /* GoodResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodResult.swift; sourceTree = "<group>"; };
 		7C7B9EAB2694778A007CE8BC /* ProductResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResult.swift; sourceTree = "<group>"; };
+		7C921D0026A7171300EF8614 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		7C96E6DD26A06DC300B211AB /* AddReviewResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewResult.swift; sourceTree = "<group>"; };
 		7C96E6DF26A06DD400B211AB /* RemoveReviewResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveReviewResult.swift; sourceTree = "<group>"; };
 		7C96E6E126A06DE300B211AB /* GetReviewResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReviewResult.swift; sourceTree = "<group>"; };
 		7C96E6E326A06FC400B211AB /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		7C96E6E526A06FD700B211AB /* ReviewRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRequestFactory.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		7C96E6E726A5D02500B211AB /* AddCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartResult.swift; sourceTree = "<group>"; };
+		7C96E6E926A5D0E200B211AB /* RemoveCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveCartResult.swift; sourceTree = "<group>"; };
+		7C96E6EB26A5D16A00B211AB /* GetCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCartResult.swift; sourceTree = "<group>"; };
+		7C96E6ED26A5D17700B211AB /* PayCartResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCartResult.swift; sourceTree = "<group>"; };
+		7C96E6EF26A5D5D100B211AB /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		7C96E6F126A5D5E600B211AB /* CartRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRequestFactory.swift; sourceTree = "<group>"; };
+		7C9EF44C26A8431200EAC21A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		7C9EF44F26AAF9ED00EAC21A /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		82A5F6F4619A19CB15179D15 /* Pods_GBShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26C8998B2E452E7DA6310C9 /* Pods_GBShop_GBShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GBShop_GBShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38474DE2F3D05D53D542B5F /* Pods-GBShop-GBShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBShop-GBShopUITests.release.xcconfig"; path = "Target Support Files/Pods-GBShop-GBShopUITests/Pods-GBShop-GBShopUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,7 +208,6 @@
 				7C041AD32684D87A0020599C /* Core */,
 				7C041AD52684D8C20020599C /* Environments */,
 				7C041AD42684D88A0020599C /* Resources */,
-				7C041AA22684D35F0020599C /* ViewController.swift */,
 				7C041AA42684D35F0020599C /* Main.storyboard */,
 				7C041AAC2684D3630020599C /* Info.plist */,
 			);
@@ -255,6 +280,7 @@
 		7C041AD22684D85C0020599C /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				7C9EF44E26AAF82500EAC21A /* Controllers */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -273,6 +299,7 @@
 				7C041AA92684D3630020599C /* LaunchScreen.storyboard */,
 				7C041AA72684D3630020599C /* Assets.xcassets */,
 				7C7B9EA326947450007CE8BC /* StringResources.swift */,
+				7C9EF44F26AAF9ED00EAC21A /* Logging.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -319,6 +346,17 @@
 				7C7B9E9E269463F9007CE8BC /* UI.xctestplan */,
 			);
 			path = TestPlanes;
+			sourceTree = "<group>";
+		};
+		7C9EF44E26AAF82500EAC21A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C041AA22684D35F0020599C /* ViewController.swift */,
+				7C921D0026A7171300EF8614 /* AuthViewController.swift */,
+				7C9EF44C26A8431200EAC21A /* RegistrationViewController.swift */,
+				7C2C113426AB01C7002EC80D /* UpdateUserViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		ECD2B5D43D9526F398C74EC0 /* Pods */ = {
@@ -574,9 +612,12 @@
 			files = (
 				7C7B9EA22694739D007CE8BC /* Product.swift in Sources */,
 				7C7B9EA026947379007CE8BC /* ProductRequestFactory.swift in Sources */,
+				7C2C113526AB01C7002EC80D /* UpdateUserViewController.swift in Sources */,
 				7C453565268DF411002275A4 /* AbstractErrorParser.swift in Sources */,
+				7C9EF44D26A8431200EAC21A /* RegistrationViewController.swift in Sources */,
 				7C453571268DF92B002275A4 /* UpdateUserDataResult.swift in Sources */,
 				7C45355E268DF3B9002275A4 /* RequestFactory.swift in Sources */,
+				7C9EF45026AAF9ED00EAC21A /* Logging.swift in Sources */,
 				7C453560268DF3D2002275A4 /* LoginResult.swift in Sources */,
 				7C45355C268DF3AE002275A4 /* Auth.swift in Sources */,
 				7C96E6E626A06FD700B211AB /* ReviewRequestFactory.swift in Sources */,
@@ -593,6 +634,7 @@
 				7C45355A268DF393002275A4 /* AuthRequestFactory.swift in Sources */,
 				7C041AA12684D35F0020599C /* SceneDelegate.swift in Sources */,
 				7C96E6E026A06DD400B211AB /* RemoveReviewResult.swift in Sources */,
+				7C921D0126A7171300EF8614 /* AuthViewController.swift in Sources */,
 				7C453569268DF44C002275A4 /* ResponseCodable.swift in Sources */,
 				7C96E6E426A06FC400B211AB /* Review.swift in Sources */,
 				7C453575268DF956002275A4 /* SignUpResult.swift in Sources */,
