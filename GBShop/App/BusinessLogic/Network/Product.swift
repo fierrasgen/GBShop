@@ -28,12 +28,14 @@ class Product: AbstractRequestFactory {
 }
 
 extension Product: ProductRequestFactory {
-    func catalog(completionHandler: @escaping (AFDataResponse<[ProductResult]>) -> Void) {
+    func catalog(completionHandler: @escaping (AFDataResponse<[ProductResult]>) -> Void
+    ) {
         let requestModel = Catalog(baseUrl: self.baseUrl)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func product(by id: Int, completionHandler: @escaping (AFDataResponse<GoodResult>) -> Void) {
+    func product(by id: Int, completionHandler: @escaping (AFDataResponse<GoodResult>) -> Void
+    ) {
         let requestModel = Good(baseUrl: self.baseUrl, id: id)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
