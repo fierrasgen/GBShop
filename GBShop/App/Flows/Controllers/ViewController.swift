@@ -21,11 +21,13 @@ class ViewController: UIViewController {
         self.addReview()
         self.getReview()
         self.removeReview()
+        
         self.addToCart()
         self.getCard()
         self.removeFromCart()
         self.payCart()
     }
+    
     
     func logout() {
         let auth = requestFactory.makeAuthRequestFatory()
@@ -163,6 +165,5 @@ class ViewController: UIViewController {
             }
         }
     }
+
 }
-
-
