@@ -2,7 +2,7 @@
 //  GetCartResult.swift
 //  GBShop
 //
-//  Created by Alexander Novikov on 19.07.2021.
+//  Created by Alexander Novikov on 26.07.2021.
 //
 
 import Foundation
