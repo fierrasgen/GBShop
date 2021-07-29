@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         self.addReview()
         self.getReview()
         self.removeReview()
+
         self.addToCart()
         self.getCard()
         self.removeFromCart()

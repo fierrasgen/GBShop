@@ -12,7 +12,8 @@ protocol ReviewRequestFactory {
     func add(
         userID: Int,
         productID: Int,
-        text: String, completionHandler: @escaping (AFDataResponse<AddReviewResult>) -> Void
+        text: String,
+        completionHandler: @escaping (AFDataResponse<AddReviewResult>) -> Void
     )
     
     func remove(
