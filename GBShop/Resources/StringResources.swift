@@ -9,7 +9,6 @@ import Foundation
 
 enum StringResources {
     static let baseURL: URL = URL(string:
-        "http://127.0.0.1:8080/"
-//  "https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses/"
+        "https://obscure-badlands-88945.herokuapp.com/"
     )!
 }
