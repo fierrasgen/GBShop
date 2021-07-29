@@ -9,6 +9,6 @@ import Foundation
 
 enum StringResources {
     static let baseURL: URL = URL(string:
-        "http://127.0.0.1:8080/"
+        "https://obscure-badlands-88945.herokuapp.com/"
     )!
 }

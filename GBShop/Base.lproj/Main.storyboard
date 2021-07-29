@@ -265,26 +265,27 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xms-Yy-Bg6">
-                                            <rect key="frame" x="11" y="11" width="61.5" height="21"/>
+                                            <rect key="frame" x="11" y="11" width="41.5" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ha1-a2-OOg">
-                                            <rect key="frame" x="348.5" y="11" width="42" height="21"/>
+                                            <rect key="frame" x="361" y="11" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="xms-Yy-Bg6" secondAttribute="bottom" constant="11" id="2Z9-zo-Ddm"/>
-                                        <constraint firstItem="ha1-a2-OOg" firstAttribute="leading" secondItem="xms-Yy-Bg6" secondAttribute="trailing" constant="276" id="bWa-m3-A3Q"/>
-                                        <constraint firstItem="xms-Yy-Bg6" firstAttribute="top" secondItem="2yg-8n-fwF" secondAttribute="top" constant="11" id="eC7-Si-U3a"/>
-                                        <constraint firstAttribute="trailing" secondItem="ha1-a2-OOg" secondAttribute="trailing" constant="23.5" id="fPo-kM-RO2"/>
-                                        <constraint firstItem="ha1-a2-OOg" firstAttribute="top" secondItem="2yg-8n-fwF" secondAttribute="top" constant="11" id="hJq-7G-Dhp"/>
-                                        <constraint firstAttribute="bottom" secondItem="ha1-a2-OOg" secondAttribute="bottom" constant="11" id="kTn-YW-YJK"/>
-                                        <constraint firstItem="xms-Yy-Bg6" firstAttribute="leading" secondItem="2yg-8n-fwF" secondAttribute="leading" constant="11" id="lDP-yk-oNf"/>
+                                        <constraint firstItem="xms-Yy-Bg6" firstAttribute="top" secondItem="2yg-8n-fwF" secondAttribute="top" constant="11" id="309-ck-tJK"/>
+                                        <constraint firstAttribute="bottom" secondItem="ha1-a2-OOg" secondAttribute="bottom" constant="11" id="5KR-fK-sWA"/>
+                                        <constraint firstItem="ha1-a2-OOg" firstAttribute="top" secondItem="2yg-8n-fwF" secondAttribute="top" constant="11" id="Gsm-Ar-DrR"/>
+                                        <constraint firstItem="xms-Yy-Bg6" firstAttribute="leading" secondItem="2yg-8n-fwF" secondAttribute="leading" constant="11" id="a3l-WF-AL7"/>
+                                        <constraint firstItem="ha1-a2-OOg" firstAttribute="centerY" secondItem="2yg-8n-fwF" secondAttribute="centerY" id="baP-gT-xau"/>
+                                        <constraint firstItem="xms-Yy-Bg6" firstAttribute="centerY" secondItem="2yg-8n-fwF" secondAttribute="centerY" id="qb5-VK-kNA"/>
+                                        <constraint firstAttribute="trailing" secondItem="ha1-a2-OOg" secondAttribute="trailing" constant="11" id="yjA-hQ-Bef"/>
+                                        <constraint firstAttribute="bottom" secondItem="xms-Yy-Bg6" secondAttribute="bottom" constant="11" id="zAn-9S-37l"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

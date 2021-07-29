@@ -28,22 +28,35 @@ class Auth: AbstractRequestFactory {
 }
 
 extension Auth: AuthRequestFactory {
-    func login(userName: String, password: String, completionHandler: @escaping (AFDataResponse<LoginResult>) -> Void) {
+    func login(
+        userName: String,
+        password: String,
+        completionHandler: @escaping (AFDataResponse<LoginResult>) -> Void
+    ) {
         let requestModel = Login(baseUrl: baseUrl, login: userName, password: password)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func logout(userID: Int, completionHandler: @escaping (AFDataResponse<LogoutResult>) -> Void) {
+    func logout(
+        userID: Int,
+        completionHandler: @escaping (AFDataResponse<LogoutResult>) -> Void
+    ) {
         let requestModel = LogoutUser(baseUrl: baseUrl, userID: userID)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func signUp(userData: UserData, completionHandler: @escaping (AFDataResponse<SignUpResult>) -> Void) {
+    func signUp(
+        userData: UserData,
+        completionHandler: @escaping (AFDataResponse<SignUpResult>) -> Void
+    ) {
         let requestModel = SignUpUser(baseUrl: baseUrl, userData: userData)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func updateUserData(userData: UserData, completionHandler: @escaping (AFDataResponse<UpdateUserDataResult>) -> Void) {
+    func updateUserData(
+        userData: UserData,
+        completionHandler: @escaping (AFDataResponse<UpdateUserDataResult>) -> Void
+    ) {
         let requestModel = UpdateUserData(baseUrl: baseUrl, userData: userData)
         self.request(request: requestModel, completionHandler: completionHandler)
     }

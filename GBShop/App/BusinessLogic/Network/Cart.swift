@@ -28,22 +28,38 @@ class Cart: AbstractRequestFactory {
 }
 
 extension Cart: CartRequestFactory {
-    func add(userID: Int, productID: Int, quantity: Int, completionHandler: @escaping (AFDataResponse<AddCartResult>) -> Void) {
+    func add(
+        userID: Int,
+        productID: Int,
+        quantity: Int,
+        completionHandler: @escaping (AFDataResponse<AddCartResult>) -> Void
+    ) {
         let requestModel = Add(baseUrl: self.baseUrl, userID: userID, productID: productID, quantity: quantity)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func get(userID: Int, completionHandler: @escaping (AFDataResponse<GetCartResult>) -> Void) {
+    func get(
+        userID: Int,
+        completionHandler: @escaping (AFDataResponse<GetCartResult>) -> Void
+    ) {
         let requestModel = Get(baseUrl: self.baseUrl, userID: userID)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func remove(userID: Int, productID: Int, completionHandler: @escaping (AFDataResponse<RemoveCartResult>) -> Void) {
+    func remove(
+        userID: Int,
+        productID: Int,
+        completionHandler: @escaping (AFDataResponse<RemoveCartResult>) -> Void
+    ) {
         let requestModel = Remove(baseUrl: self.baseUrl, userID: userID, productID: productID)
         self.request(request: requestModel, completionHandler: completionHandler)
     }
     
-    func pay(userID: Int, money: Int, completionHandler: @escaping (AFDataResponse<PayCartResult>) -> Void) {
+    func pay(
+        userID: Int,
+        money: Int,
+        completionHandler: @escaping (AFDataResponse<PayCartResult>) -> Void
+    ) {
         let requestModel = Pay(baseUrl: self.baseUrl, userID: userID, money: money)
         self.request(request: requestModel, completionHandler: completionHandler)
     }

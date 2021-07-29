@@ -9,7 +9,17 @@ import UIKit
 
 class ProductCatalogTableViewController: UITableViewController {
     
-    var catalog: [ProductResult] = []
+    var catalog = [
+        "Ноутбук",
+        "Мышка",
+        "Клавиатура"
+    ]
+    
+    var priceCatalog = [
+        "1000 р",
+        "200 р",
+        "100 р"
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +33,10 @@ class ProductCatalogTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath) as! ProductTableViewCell
         
         let product = catalog[indexPath.row]
+        let price = priceCatalog[indexPath.row]
         
-        cell.productName.text = product.name
-        cell.productPrice.text = "\(product.price) P"
+        cell.productName.text = product
+        cell.productPrice.text = price
         
         return cell
     }
