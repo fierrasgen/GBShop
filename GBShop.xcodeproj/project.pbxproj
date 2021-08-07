@@ -18,6 +18,7 @@
 		7C041AC12684D3630020599C /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C041AC02684D3630020599C /* GBShopUITests.swift */; };
 		7C11175926B7EFED00C8C54A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11175826B7EFED00C8C54A /* ProductViewController.swift */; };
 		7C11175B26B7F00100C8C54A /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11175A26B7F00100C8C54A /* ProductViewCell.swift */; };
+		7C11176126BEA5B200C8C54A /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C11176026BEA5B100C8C54A /* PayViewController.swift */; };
 		7C2C113526AB01C7002EC80D /* UpdateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C113426AB01C7002EC80D /* UpdateUserViewController.swift */; };
 		7C45355A268DF393002275A4 /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C453559268DF393002275A4 /* AuthRequestFactory.swift */; };
 		7C45355C268DF3AE002275A4 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C45355B268DF3AE002275A4 /* Auth.swift */; };
@@ -96,6 +97,7 @@
 		7C041AC22684D3630020599C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C11175826B7EFED00C8C54A /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		7C11175A26B7F00100C8C54A /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
+		7C11176026BEA5B100C8C54A /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 		7C2C113426AB01C7002EC80D /* UpdateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserViewController.swift; sourceTree = "<group>"; };
 		7C453559268DF393002275A4 /* AuthRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestFactory.swift; sourceTree = "<group>"; };
 		7C45355B268DF3AE002275A4 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
@@ -360,6 +362,7 @@
 				7C2C113426AB01C7002EC80D /* UpdateUserViewController.swift */,
 				7CA8192026AF110D00BB6D9F /* ProductCatalogTableViewController.swift */,
 				7C11175826B7EFED00C8C54A /* ProductViewController.swift */,
+				7C11176026BEA5B100C8C54A /* PayViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -635,6 +638,7 @@
 				7C453560268DF3D2002275A4 /* LoginResult.swift in Sources */,
 				7CA8191526AF052C00BB6D9F /* Cart.swift in Sources */,
 				7C45355C268DF3AE002275A4 /* Auth.swift in Sources */,
+				7C11176126BEA5B200C8C54A /* PayViewController.swift in Sources */,
 				7C96E6E626A06FD700B211AB /* ReviewRequestFactory.swift in Sources */,
 				7CA8192426AF11EF00BB6D9F /* ProductTableViewCell.swift in Sources */,
 				7CA8191726AF053E00BB6D9F /* CartRequestFactory.swift in Sources */,

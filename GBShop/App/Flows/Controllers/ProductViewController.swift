@@ -18,6 +18,10 @@ class ProductViewController: UICollectionViewController {
         present(alertConrtoller, animated: true, completion: nil)
     }
     
+    @IBAction func trashButton(_ sender: UIButton) {
+    }
+    
+    
     private let requestFactory = RequestFactory()
     var product = ProductResult()
     
